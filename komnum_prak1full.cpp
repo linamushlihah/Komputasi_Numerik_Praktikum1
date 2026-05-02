@@ -78,11 +78,11 @@ for (int i = height; i >= -height; i--) {
         if (fabs(f(x) - y) < 0.05)
             cout << "*";
         else if (fabs(x) < 0.05 && fabs(y) < 0.05)
-            cout << "+"; // origin
+            cout << "+"; 
         else if (fabs(x) < 0.05)
-            cout << "|"; // sumbu Y
+            cout << "|"; 
         else if (fabs(y) < 0.05)
-            cout << "-"; // sumbu X
+            cout << "-"; 
         else
             cout << " ";
     }
